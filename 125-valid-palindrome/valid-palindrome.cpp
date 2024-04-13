@@ -5,7 +5,6 @@ public:
         int l = 0, r = s.size() - 1;
 
         while(l <= r){
-            cout<<"letters: "<<s[l]<< "  "<<s[r]<<endl;
             while(iswalnum(s[l]) == 0 && l <= r){
                 l++;
             }
